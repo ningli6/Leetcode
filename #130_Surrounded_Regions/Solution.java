@@ -68,10 +68,10 @@ public class Solution {
     public static void main(String[] args) {
     	Solution sol = new Solution();
     	char[][] t = {
-    		{'X', 'X', 'X', 'X'},
-    		{'X', 'O', 'O', 'X'},
-    		{'X', 'X', 'O', 'X'},
-    		{'X', 'O', 'X', 'X'}
+    		{'X', '0', 'X', 'X'},
+    		// {'X', 'O', 'O', 'X'},
+    		// {'X', 'X', 'O', 'X'},
+    		// {'X', 'O', 'X', 'X'}
     	};
     	sol.solve(t);
     	for (int i = 0; i < t.length; i++) {
