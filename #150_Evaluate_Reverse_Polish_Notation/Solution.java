@@ -38,8 +38,9 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-    	Solution sol = new Solution();
-    	String[] tokens = {"4", "13", "5", "/", "+"};
-    	System.out.println(sol.evalRPN(tokens));
+    	// Solution sol = new Solution();
+    	// String[] tokens = {"4", "13", "5", "/", "+"};
+    	// System.out.println(sol.evalRPN(tokens));
+        System.out.println(6 / -132); 
     }
 }
